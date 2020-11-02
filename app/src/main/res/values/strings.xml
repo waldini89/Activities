@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Actividades Coursera</string>
+    <string name="texview_titulo">Confirmar Datos</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="boton_editar_datos">Editar Datos</string>
+    <string name="edittext_nombre">Nombre Completo</string>
+    <string name="edittext_fecha">Fecha de Nacimiento</string>
+    <string name="edittext_telefono">Telefono</string>
+    <string name="edittext_email">Email</string>
+    <string name="edittext_descripcion">Descripcion</string>
+
+</resources>

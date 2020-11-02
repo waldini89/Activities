@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.waldo_personal.activities.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="102dp"
+            android:layout_height="17dp"
+            android:gravity="center_horizontal"
+            android:text="@string/texview_titulo"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvTNombre"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="@string/edittext_nombre"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTFecha"
+            android:layout_width="131dp"
+            android:layout_height="17dp"
+            android:text="@string/edittext_fecha"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTTelefono"
+            android:layout_width="56dp"
+            android:layout_height="17dp"
+            android:text="@string/edittext_telefono"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="215dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTEmail"
+            android:layout_width="34dp"
+            android:layout_height="17dp"
+            android:text="@string/edittext_email"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="247dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="215dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTDescripcion"
+            android:layout_width="73dp"
+            android:layout_height="17dp"
+            android:text="@string/edittext_descripcion"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="215dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btEditarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:onClick="onClickEditar"
+            android:text="@string/boton_editar_datos"
+            android:theme="@style/MiRaisedButton"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
